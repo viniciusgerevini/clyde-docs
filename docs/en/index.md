@@ -35,7 +35,25 @@ The Wolf:   If I'm curt with you, it's because time is
 
 ---
 
-📘 [Language reference](../en/2-language/index.md)
+📘 Find out everything Clyde can do by reading the [Language reference](../en/2-language/index.md) docs.
 
-🤖 [Godot plugin docs](../en/3-godot/index.md)
+🤖 The [Godot plugin docs](../en/3-godot/index.md) will help you get your game up and running!
+
+---
+
+
+## About
+
+📜 The Clyde dialogue language is licensed under the [MIT License](https://github.com/viniciusgerevini/clyde/blob/main/LICENSE).
+
+📜 The plugin for Godot is also licensed under the [MIT License](https://github.com/viniciusgerevini/godot-clyde-dialogue/blob/godot_4/LICENSE).
+
+🐛 To report bugs in the Godot plugin, open an issue on the plugin's [repository](https://github.com/viniciusgerevini/godot-clyde-dialogue)
+
+👋 If you are looking for help, general questions, ideas or just want to share something, please use our main [discussion forum](https://github.com/viniciusgerevini/clyde/discussions).
+
+🎮 I would also love to see what games you've been making with Clyde. If you have any released game using clyde, share it with us [in this thread](https://github.com/viniciusgerevini/clyde/discussions/3)
+
+
+
 

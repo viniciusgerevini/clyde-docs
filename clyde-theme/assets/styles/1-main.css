@@ -71,7 +71,7 @@ h4 { font-size: 1em; }
 	}
 }
 
-@media (max-width: 470px) {
+@media (max-width: 940px) {
 	.content.with-menu {
 		margin-left: 0px;
 	}
@@ -209,7 +209,7 @@ h4 { font-size: 1em; }
 .page-header .site-config {
 	position: absolute;
 	right: 0px;
-	padding: 5px 0px;
+	padding: 5px 24px;
 }
 
 .site-config .selector select {
@@ -271,6 +271,7 @@ h4 { font-size: 1em; }
 	color: var(--text-color);
 	font-weight: 700;
 	text-decoration: none;
+	margin-left: 24px;
 }
 
 .nav-logo:hover {
@@ -362,32 +363,16 @@ h4 { font-size: 1em; }
 	display: none;
 }
 
-/*.nav-menu a.no-children {*/
-/*	padding-left: 50px;*/
-/*}*/
-
 .nav-item > ul > .nav-item > a {
 	padding-left: 44px;
-
-	/*&.no-children {*/
-	/*	padding-left: 70px;*/
-	/*}*/
 }
 
 .nav-item > ul > .nav-item > ul > .nav-item > a {
 	padding-left: 64px;
-
-	/*&.no-children {*/
-	/*	padding-left: 90px;*/
-	/*}*/
 }
 
 .nav-item > ul > .nav-item > ul > .nav-item > ul > .nav-item > a {
 	padding-left: 84px;
-
-	/*&.no-children {*/
-	/*	padding-left: 120px;*/
-	/*}*/
 }
 
 .img-center {
@@ -395,10 +380,11 @@ h4 { font-size: 1em; }
 	margin: 0 auto;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 940px) {
 	.nav-logo {
 		margin: 10px 5px auto;
 		justify-content: center;
+		margin-left: auto;
 	}
 	.nav-logo img {
 		max-height: 50px;
