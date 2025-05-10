@@ -59,9 +59,9 @@ h4 { font-size: 1em; }
 
 .content {
 	padding: 24px;
+	margin: 0 auto;
 	margin-top: 48px;
 	max-width: 1200px;
-	margin: 0 auto;
 } 
 
 @media (max-width: 1920px) {
