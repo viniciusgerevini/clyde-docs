@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{locale}}" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>{{#if pageTitle}}{{pageTitle}} - {{/if}}Aseprite Wizard</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="description" content="Aseprite Wizard for Godot docs" />
+    <meta name="keywords" content="aseprite wizard,aseprite,godot,plugin" />
+
+    {{#if (assetImage "favicon.ico")}}
+      <link rel="shortcut icon" href="{{assetImage "favicon.ico"}}" type="image/x-icon" />
+    {{/if}}
+
+    <!-- Prevent flashing white on dark mode while styles are being loaded -->
+    <style>
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: rgb(32, 35, 38);
+        }
+      }
+    </style>
+    <script>
+      var baseUrl = "{{baseUrl}}";
+      // load theme earlier
+      (function() {
+        document.querySelector("html").setAttribute("data-theme", localStorage.getItem("theme"));
+      }());
+    </script>
+
+    {{#each assets.styles}}
+      <link rel="stylesheet" href="{{this}}" type="text/css"/>
+    {{/each}}
+  </head>
+<body>
+<header class="page-header">
+  <div class="site-config">
+    <div class="selector site-theme-selector">
+      <select name="theme" id="siteThemeSelector">
+        <option value="auto">Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
+
+    {{#if version }}
+      <div class="selector doc-version-selector">
+        <select name="version" id="versionSelector">
+          <option value="{{version}}">{{version}}</option>
+        </select>
+      </div>
+    {{/if}}
+  </div>
+</header>
+<div class="page-bd">
