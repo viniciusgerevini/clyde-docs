@@ -207,7 +207,7 @@ pre[class*="language-"].line-numbers > code {
     top: 0;
     font-size: 100%;
     left: -3.8em;
-    width: 2.4em; // works for line-numbers bellow 1000
+    width: 2.4em; /* works for line-numbers bellow 1000 */
     letter-spacing: -1px;
     border-right: 1px solid #999;
     -webkit-user-select: none;
